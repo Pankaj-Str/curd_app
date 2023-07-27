@@ -5,7 +5,23 @@
 1. Set up your Django project and app:
 Follow the same steps as mentioned in the previous answer to create a new Django project and app.
 
-2. Define the model:
+1. Set up your Django project and app:
+Ensure you have Django installed. If not, you can install it using pip:
+
+```bash
+pip install django
+```
+
+Create a new Django project and app:
+
+```bash
+django-admin startproject myproject
+cd myproject
+django-admin startapp myapp
+```
+
+
+3. Define the model:
 Open the `models.py` file inside your app (`myapp`) and define the model for the Product:
 
 ```python
